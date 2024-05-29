@@ -99,4 +99,26 @@ color:#25221b;
 
  
 }
+.blocco {
+  margin-inline: auto;
+  display:flex;
+  width:950px;
+  height:300px;
+  background-color: #f4f5ce;
+  border: 3px solid transparent;
+  border-radius: 100px;
+  gap: 15px;
+  justify-content: space-between;
+}
+.honey2 {
+  border: 1px solid transparent;
+  border-bottom-left-radius: 95px;
+  border-top-left-radius: 95px;
+  width:500px;
+  height:290px;
+}
+.paragrafo {
+  align-content: center;
+  margin-left:20px;
+}
 
