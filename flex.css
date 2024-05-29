@@ -1,0 +1,102 @@
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.divHeader {
+  margin-inline: auto;
+    background-color: #f4f5ce;
+    display: flex;
+    width: 900px;
+    height: 180px;
+    align-items: center;
+    border: 4px solid transparent;
+    border-radius: 100px;
+    gap: 25px;
+  
+}
+.box {
+   flex-grow:1;
+    width: 25%;
+    height: 30%;
+    border: 2px solid transparent;
+   
+    border-radius: 40px;
+    text-align: center;
+    background-color: #e3cf6e;
+    font-weight: bold;
+  align-content: center; }
+
+.boxshop {
+  position: relative;
+ flex-grow: 3;
+ width: 25%;
+ height: 30%;
+    border: 2px solid transparent;
+   align-content: center;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #e3cf6e;
+    font-weight: bold;
+    
+}
+
+.logo {
+  width: 40px;
+  height:40px; 
+position: absolute;
+left: 0;
+
+;}
+
+.container{
+display:flex;
+  background-color: #f4f5ce;
+  width: 300px;
+  height:450px;
+  border: 3px solid transparent;
+border-radius: 100px;
+flex-wrap: wrap;
+margin-inline: auto;
+}
+section img {
+  width:300px;
+  height:300px;
+  object-fit: cover;
+  border-top-right-radius: 95px;
+  border-top-left-radius: 95px;
+}
+.button {
+  width: 200px;
+height: 50px;
+background-color: #e3cf6e;
+border: 1px solid transparent;
+border-radius: 50px;
+text-align: center;
+align-content: center;
+margin-inline: auto;
+font-weight: bold;
+color:#25221b;
+}
+
+.info {
+  margin-right:35%;
+  color:#25221b;
+  font-size:1.2em;
+  align-content: center;
+}
+
+.prezzo {
+  
+  color:#25221b;
+  font-size:1.2em;
+  align-content: center;
+
+ 
+}
+
